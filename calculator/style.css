@@ -1,0 +1,19 @@
+.container{
+    height: 550px;
+    width: 350px;
+    border: 2px solid black;
+}
+input{
+    width: 343px;
+    height: 245px;
+    font-size: 30px;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+}
+button{
+    font-size: 30px;
+    height: 60px;
+}
